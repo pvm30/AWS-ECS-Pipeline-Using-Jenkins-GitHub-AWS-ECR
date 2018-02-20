@@ -1,9 +1,9 @@
 {
-    "family": "hello-world",
+    "family": "jenkins-pvm14-taskdef-family",
     "containerDefinitions": [
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
-            "name": "hello-world",
+            "name": "jenkins-pvm14-taskdef-container",
             "cpu": 10,
             "memory": 256,
             "essential": true,
