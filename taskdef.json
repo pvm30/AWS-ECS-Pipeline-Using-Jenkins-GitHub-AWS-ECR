@@ -1,9 +1,9 @@
 {
-    "family": "jenkins-pvm14-taskdef-family",
+    "family": "jenkins-pvm14-taskdef",
     "containerDefinitions": [
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
-            "name": "jenkins-pvm14-taskdef-container",
+            "name": "jenkins-pvm14-taskdef",
             "cpu": 10,
             "memory": 256,
             "essential": true,
